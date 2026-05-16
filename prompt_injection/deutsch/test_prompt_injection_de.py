@@ -1,11 +1,12 @@
 # Prompt Injection Test - Deutsch
 # Quelle: OWASP, "Prompt Injection"
 # owasp.org/www-community/attacks/PromptInjection
-
-import requests
-import csv
-import datetime
-import os
+#
+# Entwicklungshinweise:
+# - Prompts eigenständig entwickelt
+# - Fehlerbehandlung und API-Struktur entwickelt
+#   mit Unterstützung von Claude KI (Anthropic, claude.ai)
+# - Verwendete Standardbibliotheken: requests, csv, datetime
 
 os.environ["OLLAMA_MAX_VRAM"] = "0"
 

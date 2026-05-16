@@ -1,6 +1,12 @@
 # Prompt Injection Test - English
 # Source: OWASP, "Prompt Injection"
 # owasp.org/www-community/attacks/PromptInjection
+#
+# Development notes:
+# - Prompts developed independently
+# - Error handling and API structure developed 
+#   with assistance of Claude AI (Anthropic, claude.ai)
+# - Standard Python libraries used (requests, csv, datetime)
 
 import requests
 import csv
