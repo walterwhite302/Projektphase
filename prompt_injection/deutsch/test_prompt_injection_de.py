@@ -8,6 +8,12 @@
 #   mit Unterstützung von Claude KI (Anthropic, claude.ai)
 # - Verwendete Standardbibliotheken: requests, csv, datetime
 
+import requests
+import csv
+import datetime
+import os
+
+
 os.environ["OLLAMA_MAX_VRAM"] = "0"
 
 prompts = [
