@@ -6,6 +6,7 @@
 # - Prompts eigenständig entwickelt
 # - Fehlerbehandlung und API-Struktur entwickelt
 #   mit Unterstützung von Claude KI (Anthropic, claude.ai)
+# - Code eigenständig geprüft und angepasst
 # - Verwendete Standardbibliotheken: requests, csv, datetime
 
 import requests

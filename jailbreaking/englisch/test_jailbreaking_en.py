@@ -6,6 +6,7 @@
 # - Prompts developed independently
 # - Error handling and API structure developed 
 #   with assistance of Claude AI (Anthropic, claude.ai)
+# - Code independently reviewed and adapted
 # - Standard Python libraries used (requests, csv, datetime)
 
 import requests
