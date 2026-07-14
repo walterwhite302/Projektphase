@@ -27,9 +27,9 @@ prompts = [
 
 models = [
     "llama3:8b",
-    "llama3:70b",
+    #"llama3:70b",
     "mistral:latest",
-    "mistral-small:latest",
+    #"mistral-small:latest",
     "gemma3:4b",
     "gemma3:12b",
 ]

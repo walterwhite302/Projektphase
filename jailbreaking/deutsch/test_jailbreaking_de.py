@@ -1,7 +1,6 @@
 # Jailbreaking Test - Deutsch
 # Quelle: OWASP, LLM01:2025 – Prompt Injection / Jailbreaking
 # genai.owasp.org/llm-top-10/
-
 # Entwicklungshinweise:
 # - Prompts eigenständig entwickelt
 # - Fehlerbehandlung und API-Struktur entwickelt
