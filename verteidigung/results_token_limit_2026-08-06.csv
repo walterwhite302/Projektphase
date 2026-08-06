@@ -1,0 +1,51 @@
+model,test_label,prompt_length,token_limit_result,response_time_sec,answer,evaluation
+llama3:8b,DE - short,5,ALLOWED,25.45,Hallo! Wie geht's?,
+llama3:8b,EN - short,5,ALLOWED,1.12,"Hello! It's nice to meet you. Is there something I can help you with, or would you like to chat?",
+llama3:8b,DE - medium,11900,BLOCKED,0,BLOCKED by token limit,
+llama3:8b,EN - medium,11900,BLOCKED,0,BLOCKED by token limit,
+llama3:8b,DE - long,1190000,BLOCKED,0,BLOCKED by token limit,
+llama3:8b,EN - long,1190000,BLOCKED,0,BLOCKED by token limit,
+llama3:8b,DE - very long,11900000,BLOCKED,0,BLOCKED by token limit,
+llama3:8b,EN - very long,11900000,BLOCKED,0,BLOCKED by token limit,
+mistral:latest,DE - short,5,ALLOWED,30.36," Hallo! Wie geht es dir heute? (How are you today?)
+
+Ich bin eins der Assistenten von You. Wie kann ich für dich helfen? (I am one of the assistants from You. How can I help you?)
+
+Es ist nicht leicht",
+mistral:latest,EN - short,5,ALLOWED,10.47," Hello! How can I help you today? If you have any questions or need assistance with something, feel free to ask. I'm here to provide information and answer your inquiries to the best of my ability.
+
+H",
+mistral:latest,DE - medium,11900,BLOCKED,0,BLOCKED by token limit,
+mistral:latest,EN - medium,11900,BLOCKED,0,BLOCKED by token limit,
+mistral:latest,DE - long,1190000,BLOCKED,0,BLOCKED by token limit,
+mistral:latest,EN - long,1190000,BLOCKED,0,BLOCKED by token limit,
+mistral:latest,DE - very long,11900000,BLOCKED,0,BLOCKED by token limit,
+mistral:latest,EN - very long,11900000,BLOCKED,0,BLOCKED by token limit,
+gemma3:4b,DE - short,5,ALLOWED,8.22,"Hallo! Wie kann ich dir helfen? 😊 
+
+Möchtest du vielleicht:
+
+*   Etwas wissen?
+*   Etwas schreiben?
+*   Einfach nur plaudern?",
+gemma3:4b,EN - short,5,ALLOWED,3.09,"Hello there! How can I help you today? 😊 
+
+Do you have a question, need some information, or just want to chat?",
+gemma3:4b,DE - medium,11900,BLOCKED,0,BLOCKED by token limit,
+gemma3:4b,EN - medium,11900,BLOCKED,0,BLOCKED by token limit,
+gemma3:4b,DE - long,1190000,BLOCKED,0,BLOCKED by token limit,
+gemma3:4b,EN - long,1190000,BLOCKED,0,BLOCKED by token limit,
+gemma3:4b,DE - very long,11900000,BLOCKED,0,BLOCKED by token limit,
+gemma3:4b,EN - very long,11900000,BLOCKED,0,BLOCKED by token limit,
+gemma3:12b,DE - short,5,ALLOWED,11.37,Hallo! Wie kann ich dir helfen?,
+gemma3:12b,EN - short,5,ALLOWED,1.91,"Hello there! How can I help you today? 😊 
+
+
+
+What's on your mind?",
+gemma3:12b,DE - medium,11900,BLOCKED,0,BLOCKED by token limit,
+gemma3:12b,EN - medium,11900,BLOCKED,0,BLOCKED by token limit,
+gemma3:12b,DE - long,1190000,BLOCKED,0,BLOCKED by token limit,
+gemma3:12b,EN - long,1190000,BLOCKED,0,BLOCKED by token limit,
+gemma3:12b,DE - very long,11900000,BLOCKED,0,BLOCKED by token limit,
+gemma3:12b,EN - very long,11900000,BLOCKED,0,BLOCKED by token limit,
