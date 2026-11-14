@@ -1,0 +1,365 @@
+2026-10-13T19:29:21+02:00 DESKTOP-ED36644 systemd[1]: Started ollama.service - Ollama Service.
+2026-10-13T19:29:22+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:22.443+02:00 level=INFO source=routes.go:1802 msg="server config" env="map[CUDA_VISIBLE_DEVICES: GGML_VK_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:0 OLLAMA_DEBUG:INFO OLLAMA_DEBUG_LOG_REQUESTS:false OLLAMA_EDITOR: OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://127.0.0.1:11434 OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/usr/share/ollama/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NO_CLOUD:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_REMOTES:[ollama.com] OLLAMA_SCHED_SPREAD:false OLLAMA_VULKAN:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]"
+2026-10-13T19:29:22+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:22.443+02:00 level=INFO source=routes.go:1804 msg="Ollama cloud disabled: false"
+2026-10-13T19:29:22+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:22.450+02:00 level=INFO source=images.go:517 msg="total blobs: 22"
+2026-10-13T19:29:22+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:22.450+02:00 level=INFO source=images.go:524 msg="total unused blobs removed: 0"
+2026-10-13T19:29:22+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:22.450+02:00 level=INFO source=routes.go:1864 msg="Listening on 127.0.0.1:11434 (version 0.23.2)"
+2026-10-13T19:29:22+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:22.452+02:00 level=INFO source=runner.go:67 msg="discovering available GPUs..."
+2026-10-13T19:29:22+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:22.458+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 40683"
+2026-10-13T19:29:22+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:22.944+02:00 level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=3h25m38.543728953s consecutive_failures=0
+2026-10-13T19:29:23+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:23.719+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 45683"
+2026-10-13T19:29:24+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:24.543+02:00 level=INFO source=runner.go:106 msg="experimental Vulkan support disabled.  To enable, set OLLAMA_VULKAN=1"
+2026-10-13T19:29:24+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:24.543+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 42449"
+2026-10-13T19:29:24+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:24.543+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 36069"
+2026-10-13T19:29:24+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:24.805+02:00 level=INFO source=types.go:42 msg="inference compute" id=GPU-3962678f-d773-cc62-159e-16e49f3a5f16 filter_id="" library=CUDA compute=8.9 name=CUDA0 description="NVIDIA GeForce RTX 4060" libdirs=ollama,cuda_v13 driver=13.3 pci_id=0000:01:00.0 type=discrete total="8.0 GiB" available="6.6 GiB"
+2026-10-13T19:29:24+02:00 DESKTOP-ED36644 ollama[199]: time=2026-10-13T19:29:24.805+02:00 level=INFO source=routes.go:1914 msg="vram-based default context" total_vram="8.0 GiB" default_num_ctx=4096
+2026-10-13T19:33:11+02:00 DESKTOP-ED36644 ollama[199]: [GIN] 2026/10/13 - 19:33:11 | 404 |     4.11146ms |       127.0.0.1 | POST     "/api/generate"
+2026-10-13T19:40:24+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Deactivated successfully.
+2026-10-13T19:40:24+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Consumed 1.678s CPU time.
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Scheduled restart job, restart counter is at 1.
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 systemd[1]: Started ollama.service - Ollama Service.
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:27.763+02:00 level=INFO source=routes.go:1802 msg="server config" env="map[CUDA_VISIBLE_DEVICES: GGML_VK_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:0 OLLAMA_DEBUG:INFO OLLAMA_DEBUG_LOG_REQUESTS:false OLLAMA_EDITOR: OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://127.0.0.1:11434 OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/usr/share/ollama/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NO_CLOUD:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_REMOTES:[ollama.com] OLLAMA_SCHED_SPREAD:false OLLAMA_VULKAN:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]"
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:27.763+02:00 level=INFO source=routes.go:1804 msg="Ollama cloud disabled: false"
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:27.766+02:00 level=INFO source=images.go:517 msg="total blobs: 22"
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:27.767+02:00 level=INFO source=images.go:524 msg="total unused blobs removed: 0"
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:27.767+02:00 level=INFO source=routes.go:1864 msg="Listening on 127.0.0.1:11434 (version 0.23.2)"
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:27.769+02:00 level=INFO source=runner.go:67 msg="discovering available GPUs..."
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:27.769+02:00 level=INFO source=runner.go:106 msg="experimental Vulkan support disabled.  To enable, set OLLAMA_VULKAN=1"
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:27.769+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 46155"
+2026-10-13T19:40:27+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:27.986+02:00 level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=4h45m27.634536365s consecutive_failures=0
+2026-10-13T19:40:28+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:28.186+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 37269"
+2026-10-13T19:40:28+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:28.548+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 37543"
+2026-10-13T19:40:28+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:28.548+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 35101"
+2026-10-13T19:40:28+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:28.709+02:00 level=INFO source=types.go:42 msg="inference compute" id=GPU-3962678f-d773-cc62-159e-16e49f3a5f16 filter_id="" library=CUDA compute=8.9 name=CUDA0 description="NVIDIA GeForce RTX 4060" libdirs=ollama,cuda_v13 driver=13.3 pci_id=0000:01:00.0 type=discrete total="8.0 GiB" available="6.6 GiB"
+2026-10-13T19:40:28+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:40:28.709+02:00 level=INFO source=routes.go:1914 msg="vram-based default context" total_vram="8.0 GiB" default_num_ctx=4096
+2026-10-13T19:51:26+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 19:51:26 | 200 |     654.084µs |       127.0.0.1 | GET      "/api/tags"
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.410+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 45377"
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.803+02:00 level=INFO source=server.go:259 msg="enabling flash attention"
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.803+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --model /usr/share/ollama/.ollama/models/blobs/sha256-e8ad13eff07a78d89926e9e8b882317d082ef5bf9768ad7b50fcdbbcd63748de --port 33767"
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.804+02:00 level=INFO source=sched.go:484 msg="system memory" total="7.7 GiB" free="6.9 GiB" free_swap="2.0 GiB"
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.804+02:00 level=INFO source=sched.go:491 msg="gpu memory" id=GPU-3962678f-d773-cc62-159e-16e49f3a5f16 library=CUDA available="6.2 GiB" free="6.6 GiB" minimum="457.0 MiB" overhead="0 B"
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.804+02:00 level=INFO source=server.go:792 msg="loading model" "model layers"=49 requested=-1
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.815+02:00 level=INFO source=runner.go:1450 msg="starting ollama engine"
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.817+02:00 level=INFO source=runner.go:1485 msg="Server listening on 127.0.0.1:33767"
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.827+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:fit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:49[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:49(0..48)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.881+02:00 level=INFO source=ggml.go:144 msg="" architecture=gemma3 file_type=Q4_K_M name="" description="" num_tensors=1065 num_key_values=37
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: load_backend: loaded CPU backend from /usr/local/lib/ollama/libggml-cpu-alderlake.so
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: ggml_cuda_init: found 1 CUDA devices:
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]:   Device 0: NVIDIA GeForce RTX 4060, compute capability 8.9, VMM: yes, ID: GPU-3962678f-d773-cc62-159e-16e49f3a5f16
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: load_backend: loaded CUDA backend from /usr/local/lib/ollama/cuda_v13/libggml-cuda.so
+2026-10-13T19:57:29+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:29.976+02:00 level=INFO source=ggml.go:104 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX_VNNI=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.BMI2=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 CUDA.0.ARCHS=750,800,860,870,890,900,1000,1030,1100,1200,1210 CUDA.0.USE_GRAPHS=1 CUDA.0.PEER_MAX_BATCH_SIZE=128 compiler=cgo(gcc)
+2026-10-13T19:57:49+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:49.947+02:00 level=ERROR source=server.go:1240 msg="do load request" error="Post \"http://127.0.0.1:33767/load\": context canceled"
+2026-10-13T19:57:49+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:49.947+02:00 level=ERROR source=server.go:1240 msg="do load request" error="Post \"http://127.0.0.1:33767/load\": context canceled"
+2026-10-13T19:57:49+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:57:49.947+02:00 level=INFO source=sched.go:511 msg="Load failed" model=/usr/share/ollama/.ollama/models/blobs/sha256-e8ad13eff07a78d89926e9e8b882317d082ef5bf9768ad7b50fcdbbcd63748de error="model failed to load, this may be due to resource limitations or an internal error, check ollama server logs for details"
+2026-10-13T19:57:50+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 19:57:50 | 500 | 20.821160864s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T19:58:21+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 19:58:21 | 200 |     348.554µs |       127.0.0.1 | GET      "/"
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.322+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 39085"
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.651+02:00 level=INFO source=server.go:259 msg="enabling flash attention"
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.651+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --model /usr/share/ollama/.ollama/models/blobs/sha256-e8ad13eff07a78d89926e9e8b882317d082ef5bf9768ad7b50fcdbbcd63748de --port 44353"
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.651+02:00 level=INFO source=sched.go:484 msg="system memory" total="7.7 GiB" free="6.9 GiB" free_swap="2.0 GiB"
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.651+02:00 level=INFO source=sched.go:491 msg="gpu memory" id=GPU-3962678f-d773-cc62-159e-16e49f3a5f16 library=CUDA available="6.1 GiB" free="6.5 GiB" minimum="457.0 MiB" overhead="0 B"
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.651+02:00 level=INFO source=server.go:792 msg="loading model" "model layers"=49 requested=-1
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.663+02:00 level=INFO source=runner.go:1450 msg="starting ollama engine"
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.665+02:00 level=INFO source=runner.go:1485 msg="Server listening on 127.0.0.1:44353"
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.674+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:fit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:49[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:49(0..48)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.735+02:00 level=INFO source=ggml.go:144 msg="" architecture=gemma3 file_type=Q4_K_M name="" description="" num_tensors=1065 num_key_values=37
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: load_backend: loaded CPU backend from /usr/local/lib/ollama/libggml-cpu-alderlake.so
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: ggml_cuda_init: found 1 CUDA devices:
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]:   Device 0: NVIDIA GeForce RTX 4060, compute capability 8.9, VMM: yes, ID: GPU-3962678f-d773-cc62-159e-16e49f3a5f16
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: load_backend: loaded CUDA backend from /usr/local/lib/ollama/cuda_v13/libggml-cuda.so
+2026-10-13T19:58:41+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:58:41.854+02:00 level=INFO source=ggml.go:104 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX_VNNI=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.BMI2=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 CUDA.0.ARCHS=750,800,860,870,890,900,1000,1030,1100,1200,1210 CUDA.0.USE_GRAPHS=1 CUDA.0.PEER_MAX_BATCH_SIZE=128 compiler=cgo(gcc)
+2026-10-13T19:59:04+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:04.435+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:fit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:42[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:42(6..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T19:59:04+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:04.725+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:alloc LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:42[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:42(6..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.182+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:commit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:42[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:42(6..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=ggml.go:490 msg="offloading 42 repeating layers to GPU"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=ggml.go:494 msg="offloading output layer to CPU"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=ggml.go:502 msg="offloaded 42/49 layers to GPU"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=device.go:240 msg="model weights" device=CUDA0 size="5.2 GiB"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=device.go:245 msg="model weights" device=CPU size="3.1 GiB"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=device.go:251 msg="kv cache" device=CUDA0 size="644.0 MiB"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=device.go:256 msg="kv cache" device=CPU size="92.0 MiB"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=device.go:262 msg="compute graph" device=CUDA0 size="222.1 MiB"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=device.go:267 msg="compute graph" device=CPU size="18.0 MiB"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=device.go:272 msg="total memory" size="9.3 GiB"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.183+02:00 level=INFO source=sched.go:561 msg="loaded runners" count=1
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.184+02:00 level=INFO source=server.go:1385 msg="waiting for llama runner to start responding"
+2026-10-13T19:59:05+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:05.184+02:00 level=INFO source=server.go:1428 msg="waiting for server to become available" status="llm server loading model"
+2026-10-13T19:59:22+02:00 DESKTOP-ED36644 ollama[883]: time=2026-10-13T19:59:22.378+02:00 level=INFO source=server.go:1432 msg="llama runner started in 40.73 seconds"
+2026-10-13T19:59:38+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 19:59:38 | 200 | 57.357891541s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T19:59:46+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 19:59:46 | 500 |  8.209214871s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:00:22+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:00:22 | 200 | 32.855433532s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:00:31+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:00:31 | 200 |  9.018645045s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:00:51+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:00:51 | 200 | 19.842861285s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:01:16+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:01:16 | 200 | 24.742048727s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:01:31+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:01:31 | 200 | 15.300730641s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:01:46+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:01:46 | 200 | 14.801717014s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:02:12+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:02:12 | 200 | 25.551897183s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:02:41+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:02:41 | 200 | 29.107052908s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:03:15+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:03:15 | 200 | 34.163455746s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:03:35+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:03:35 | 200 | 20.135491415s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:04:14+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:04:14 | 200 | 39.216103077s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:04:58+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:04:58 | 200 | 44.233156542s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:05:41+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:05:41 | 200 | 42.991174246s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:06:28+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:06:28 | 200 | 46.200656764s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:07:10+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:07:10 | 200 | 42.103587213s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:07:39+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:07:39 | 200 | 28.758109943s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:08:19+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:08:19 | 200 | 40.384285794s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:08:50+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:08:50 | 200 | 30.843451274s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:09:25+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:09:25 | 200 | 34.858047912s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:10:13+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:10:13 | 200 | 48.341647792s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:11:30+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:11:30 | 200 |         1m17s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:12:25+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:12:25 | 200 | 54.394586504s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:13:21+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:13:21 | 500 | 55.946070762s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T20:14:07+02:00 DESKTOP-ED36644 ollama[883]: [GIN] 2026/10/13 - 20:14:07 | 200 |   11.506605ms |       127.0.0.1 | GET      "/api/tags"
+2026-10-13T20:14:14+02:00 DESKTOP-ED36644 systemd[1]: Stopping ollama.service - Ollama Service...
+2026-10-13T20:14:14+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Deactivated successfully.
+2026-10-13T20:14:14+02:00 DESKTOP-ED36644 systemd[1]: Stopped ollama.service - Ollama Service.
+2026-10-13T20:14:14+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Consumed 38min 50.744s CPU time.
+-- Boot d5ec89269ae54a3891ea40120b7fc19b --
+2026-10-13T23:08:12+02:00 DESKTOP-ED36644 systemd[1]: Started ollama.service - Ollama Service.
+2026-10-13T23:08:12+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:12.744+02:00 level=INFO source=routes.go:1802 msg="server config" env="map[CUDA_VISIBLE_DEVICES: GGML_VK_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:0 OLLAMA_DEBUG:INFO OLLAMA_DEBUG_LOG_REQUESTS:false OLLAMA_EDITOR: OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://127.0.0.1:11434 OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/usr/share/ollama/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NO_CLOUD:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_REMOTES:[ollama.com] OLLAMA_SCHED_SPREAD:false OLLAMA_VULKAN:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]"
+2026-10-13T23:08:12+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:12.744+02:00 level=INFO source=routes.go:1804 msg="Ollama cloud disabled: false"
+2026-10-13T23:08:12+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:12.750+02:00 level=INFO source=images.go:517 msg="total blobs: 22"
+2026-10-13T23:08:12+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:12.750+02:00 level=INFO source=images.go:524 msg="total unused blobs removed: 0"
+2026-10-13T23:08:12+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:12.751+02:00 level=INFO source=routes.go:1864 msg="Listening on 127.0.0.1:11434 (version 0.23.2)"
+2026-10-13T23:08:12+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:12.753+02:00 level=INFO source=runner.go:67 msg="discovering available GPUs..."
+2026-10-13T23:08:12+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:12.757+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 37131"
+2026-10-13T23:08:13+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:13.267+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 35403"
+2026-10-13T23:08:13+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:13.277+02:00 level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=4h10m48.791277923s consecutive_failures=0
+2026-10-13T23:08:13+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:13.704+02:00 level=INFO source=runner.go:106 msg="experimental Vulkan support disabled.  To enable, set OLLAMA_VULKAN=1"
+2026-10-13T23:08:13+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:13.704+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 33073"
+2026-10-13T23:08:13+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:13.704+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 42197"
+2026-10-13T23:08:13+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:13.873+02:00 level=INFO source=types.go:42 msg="inference compute" id=GPU-3962678f-d773-cc62-159e-16e49f3a5f16 filter_id="" library=CUDA compute=8.9 name=CUDA0 description="NVIDIA GeForce RTX 4060" libdirs=ollama,cuda_v13 driver=13.3 pci_id=0000:01:00.0 type=discrete total="8.0 GiB" available="5.9 GiB"
+2026-10-13T23:08:13+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:08:13.873+02:00 level=INFO source=routes.go:1914 msg="vram-based default context" total_vram="8.0 GiB" default_num_ctx=4096
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.080+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 42165"
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.378+02:00 level=INFO source=server.go:259 msg="enabling flash attention"
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.378+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --model /usr/share/ollama/.ollama/models/blobs/sha256-e8ad13eff07a78d89926e9e8b882317d082ef5bf9768ad7b50fcdbbcd63748de --port 45019"
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.378+02:00 level=INFO source=sched.go:484 msg="system memory" total="7.7 GiB" free="6.9 GiB" free_swap="2.0 GiB"
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.378+02:00 level=INFO source=sched.go:491 msg="gpu memory" id=GPU-3962678f-d773-cc62-159e-16e49f3a5f16 library=CUDA available="5.4 GiB" free="5.9 GiB" minimum="457.0 MiB" overhead="0 B"
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.378+02:00 level=INFO source=server.go:792 msg="loading model" "model layers"=49 requested=-1
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.388+02:00 level=INFO source=runner.go:1450 msg="starting ollama engine"
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.389+02:00 level=INFO source=runner.go:1485 msg="Server listening on 127.0.0.1:45019"
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.400+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:fit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:49[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:49(0..48)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.457+02:00 level=INFO source=ggml.go:144 msg="" architecture=gemma3 file_type=Q4_K_M name="" description="" num_tensors=1065 num_key_values=37
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: load_backend: loaded CPU backend from /usr/local/lib/ollama/libggml-cpu-alderlake.so
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: ggml_cuda_init: found 1 CUDA devices:
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]:   Device 0: NVIDIA GeForce RTX 4060, compute capability 8.9, VMM: yes, ID: GPU-3962678f-d773-cc62-159e-16e49f3a5f16
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: load_backend: loaded CUDA backend from /usr/local/lib/ollama/cuda_v13/libggml-cuda.so
+2026-10-13T23:09:59+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:09:59.544+02:00 level=INFO source=ggml.go:104 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX_VNNI=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.BMI2=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 CUDA.0.ARCHS=750,800,860,870,890,900,1000,1030,1100,1200,1210 CUDA.0.USE_GRAPHS=1 CUDA.0.PEER_MAX_BATCH_SIZE=128 compiler=cgo(gcc)
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.281+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:fit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:37[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:37(11..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.521+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:alloc LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:37[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:37(11..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:commit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:37[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:37(11..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=ggml.go:490 msg="offloading 37 repeating layers to GPU"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=ggml.go:494 msg="offloading output layer to CPU"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=ggml.go:502 msg="offloaded 37/49 layers to GPU"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=device.go:240 msg="model weights" device=CUDA0 size="4.6 GiB"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=device.go:245 msg="model weights" device=CPU size="3.7 GiB"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=device.go:251 msg="kv cache" device=CUDA0 size="584.0 MiB"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=device.go:256 msg="kv cache" device=CPU size="152.0 MiB"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=device.go:262 msg="compute graph" device=CUDA0 size="222.1 MiB"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=device.go:267 msg="compute graph" device=CPU size="18.0 MiB"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=device.go:272 msg="total memory" size="9.3 GiB"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=sched.go:561 msg="loaded runners" count=1
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=server.go:1385 msg="waiting for llama runner to start responding"
+2026-10-13T23:10:00+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:00.940+02:00 level=INFO source=server.go:1428 msg="waiting for server to become available" status="llm server loading model"
+2026-10-13T23:10:05+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:05.429+02:00 level=INFO source=server.go:1428 msg="waiting for server to become available" status="llm server not responding"
+2026-10-13T23:10:06+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:06.449+02:00 level=INFO source=server.go:1428 msg="waiting for server to become available" status="llm server loading model"
+2026-10-13T23:10:16+02:00 DESKTOP-ED36644 ollama[177]: time=2026-10-13T23:10:16.637+02:00 level=INFO source=server.go:1432 msg="llama runner started in 17.26 seconds"
+2026-10-13T23:10:41+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:10:41 | 200 | 41.803176853s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:11:04+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:11:04 | 200 | 22.447780622s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:11:22+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:11:22 | 200 | 18.051275028s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:11:43+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:11:43 | 200 | 20.702189407s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:12:18+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:12:18 | 200 | 34.459368428s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:12:38+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:12:38 | 200 | 19.616290453s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:13:10+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:13:10 | 200 | 31.541546325s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:13:39+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:13:39 | 200 | 28.236416766s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:14:21+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:14:21 | 200 | 41.640822246s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:14:41+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:14:41 | 200 | 19.610734165s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:15:32+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:15:32 | 200 | 49.446479475s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:16:09+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:16:09 | 200 |  37.02810895s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:16:56+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:16:56 | 200 | 45.854396425s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:17:31+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:17:31 | 200 | 34.170016999s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:18:13+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:18:13 | 200 |  41.34958533s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:18:50+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:18:50 | 200 | 36.730448002s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:19:37+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:19:37 | 200 | 46.279475596s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:19:58+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:19:58 | 200 | 20.890343094s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:20:39+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:20:39 | 200 | 39.828702184s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:21:10+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:21:10 | 200 | 30.650852152s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:22:04+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:22:04 | 200 | 52.692664455s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:27:09+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:27:09 | 500 |          5m0s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:28:07+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: A process of this unit has been killed by the OOM killer.
+2026-10-13T23:28:07+02:00 DESKTOP-ED36644 ollama[177]: [GIN] 2026/10/13 - 23:28:07 | 500 | 56.172017452s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:28:08+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Failed with result 'oom-kill'.
+2026-10-13T23:28:08+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Consumed 53min 18.008s CPU time.
+2026-10-13T23:28:11+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Scheduled restart job, restart counter is at 1.
+2026-10-13T23:28:11+02:00 DESKTOP-ED36644 systemd[1]: Started ollama.service - Ollama Service.
+2026-10-13T23:28:11+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:11.372+02:00 level=INFO source=routes.go:1802 msg="server config" env="map[CUDA_VISIBLE_DEVICES: GGML_VK_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:0 OLLAMA_DEBUG:INFO OLLAMA_DEBUG_LOG_REQUESTS:false OLLAMA_EDITOR: OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://127.0.0.1:11434 OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/usr/share/ollama/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NO_CLOUD:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_REMOTES:[ollama.com] OLLAMA_SCHED_SPREAD:false OLLAMA_VULKAN:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]"
+2026-10-13T23:28:11+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:11.374+02:00 level=INFO source=routes.go:1804 msg="Ollama cloud disabled: false"
+2026-10-13T23:28:11+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:11.379+02:00 level=INFO source=images.go:517 msg="total blobs: 22"
+2026-10-13T23:28:11+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:11.379+02:00 level=INFO source=images.go:524 msg="total unused blobs removed: 0"
+2026-10-13T23:28:11+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:11.380+02:00 level=INFO source=routes.go:1864 msg="Listening on 127.0.0.1:11434 (version 0.23.2)"
+2026-10-13T23:28:11+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:11.382+02:00 level=INFO source=runner.go:67 msg="discovering available GPUs..."
+2026-10-13T23:28:11+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:11.385+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 42729"
+2026-10-13T23:28:11+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:11.624+02:00 level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=3h15m38.579669266s consecutive_failures=0
+2026-10-13T23:28:12+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:12.087+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 40411"
+2026-10-13T23:28:12+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:12.551+02:00 level=INFO source=runner.go:106 msg="experimental Vulkan support disabled.  To enable, set OLLAMA_VULKAN=1"
+2026-10-13T23:28:12+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:12.551+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 44095"
+2026-10-13T23:28:12+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:12.551+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 44171"
+2026-10-13T23:28:12+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:12.776+02:00 level=INFO source=types.go:42 msg="inference compute" id=GPU-3962678f-d773-cc62-159e-16e49f3a5f16 filter_id="" library=CUDA compute=8.9 name=CUDA0 description="NVIDIA GeForce RTX 4060" libdirs=ollama,cuda_v13 driver=13.3 pci_id=0000:01:00.0 type=discrete total="8.0 GiB" available="6.0 GiB"
+2026-10-13T23:28:12+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:12.776+02:00 level=INFO source=routes.go:1914 msg="vram-based default context" total_vram="8.0 GiB" default_num_ctx=4096
+2026-10-13T23:28:50+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:50.844+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 41067"
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:51.161+02:00 level=INFO source=server.go:259 msg="enabling flash attention"
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:51.161+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --model /usr/share/ollama/.ollama/models/blobs/sha256-e8ad13eff07a78d89926e9e8b882317d082ef5bf9768ad7b50fcdbbcd63748de --port 46323"
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:51.161+02:00 level=INFO source=sched.go:484 msg="system memory" total="7.7 GiB" free="6.9 GiB" free_swap="2.0 GiB"
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:51.161+02:00 level=INFO source=sched.go:491 msg="gpu memory" id=GPU-3962678f-d773-cc62-159e-16e49f3a5f16 library=CUDA available="5.6 GiB" free="6.0 GiB" minimum="457.0 MiB" overhead="0 B"
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:51.161+02:00 level=INFO source=server.go:792 msg="loading model" "model layers"=49 requested=-1
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:51.172+02:00 level=INFO source=runner.go:1450 msg="starting ollama engine"
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:51.174+02:00 level=INFO source=runner.go:1485 msg="Server listening on 127.0.0.1:46323"
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:51.184+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:fit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:49[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:49(0..48)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:51.238+02:00 level=INFO source=ggml.go:144 msg="" architecture=gemma3 file_type=Q4_K_M name="" description="" num_tensors=1065 num_key_values=37
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: load_backend: loaded CPU backend from /usr/local/lib/ollama/libggml-cpu-alderlake.so
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: ggml_cuda_init: found 1 CUDA devices:
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]:   Device 0: NVIDIA GeForce RTX 4060, compute capability 8.9, VMM: yes, ID: GPU-3962678f-d773-cc62-159e-16e49f3a5f16
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: load_backend: loaded CUDA backend from /usr/local/lib/ollama/cuda_v13/libggml-cuda.so
+2026-10-13T23:28:51+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:51.368+02:00 level=INFO source=ggml.go:104 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX_VNNI=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.BMI2=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 CUDA.0.ARCHS=750,800,860,870,890,900,1000,1030,1100,1200,1210 CUDA.0.USE_GRAPHS=1 CUDA.0.PEER_MAX_BATCH_SIZE=128 compiler=cgo(gcc)
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.196+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:fit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:38[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:38(10..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.474+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:alloc LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:38[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:38(10..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.954+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:commit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:38[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:38(10..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=ggml.go:490 msg="offloading 38 repeating layers to GPU"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=ggml.go:494 msg="offloading output layer to CPU"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=ggml.go:502 msg="offloaded 38/49 layers to GPU"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=device.go:240 msg="model weights" device=CUDA0 size="4.7 GiB"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=device.go:245 msg="model weights" device=CPU size="3.6 GiB"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=device.go:251 msg="kv cache" device=CUDA0 size="596.0 MiB"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=device.go:256 msg="kv cache" device=CPU size="140.0 MiB"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=device.go:262 msg="compute graph" device=CUDA0 size="222.1 MiB"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=device.go:267 msg="compute graph" device=CPU size="18.0 MiB"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=device.go:272 msg="total memory" size="9.3 GiB"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=sched.go:561 msg="loaded runners" count=1
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.955+02:00 level=INFO source=server.go:1385 msg="waiting for llama runner to start responding"
+2026-10-13T23:28:52+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:28:52.957+02:00 level=INFO source=server.go:1428 msg="waiting for server to become available" status="llm server loading model"
+2026-10-13T23:29:04+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-13T23:29:04.020+02:00 level=INFO source=server.go:1432 msg="llama runner started in 12.21 seconds"
+2026-10-13T23:30:49+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:30:49 | 200 |         1m56s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:32:04+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:32:04 | 200 |         1m14s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:33:13+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:33:13 | 200 |          1m8s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:35:02+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:35:02 | 200 |         1m48s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:36:03+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:36:03 | 200 |          1m0s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:36:11+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:36:11 | 200 |   7.33959312s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:37:22+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:37:22 | 200 |          1m9s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:38:47+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:38:47 | 200 |         1m24s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:39:51+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:39:51 | 200 |          1m2s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:41:06+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:41:06 | 200 |         1m13s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:43:00+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:43:00 | 200 |         1m51s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:43:24+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:43:24 | 200 | 23.894078321s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:45:09+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:45:09 | 200 |         1m42s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:46:17+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:46:17 | 200 |          1m6s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:47:41+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:47:41 | 200 |         1m21s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:49:36+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:49:36 | 200 |         1m52s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:51:05+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:51:05 | 200 |         1m27s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:52:41+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:52:41 | 200 |         1m34s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:53:44+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:53:44 | 200 |          1m1s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:55:18+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:55:18 | 200 |         1m32s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:57:16+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:57:16 | 200 |         1m54s |       127.0.0.1 | POST     "/api/chat"
+2026-10-13T23:59:12+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/13 - 23:59:12 | 200 |         1m54s |       127.0.0.1 | POST     "/api/chat"
+2026-10-14T00:01:09+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/14 - 00:01:09 | 200 |         1m53s |       127.0.0.1 | POST     "/api/chat"
+2026-10-14T00:02:54+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/14 - 00:02:54 | 200 |         1m43s |       127.0.0.1 | POST     "/api/chat"
+2026-10-14T00:04:37+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/14 - 00:04:37 | 200 |         1m39s |       127.0.0.1 | POST     "/api/chat"
+2026-10-14T00:06:47+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/14 - 00:06:47 | 200 |          2m6s |       127.0.0.1 | POST     "/api/chat"
+2026-10-14T00:08:31+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/14 - 00:08:31 | 200 |         1m40s |       127.0.0.1 | POST     "/api/chat"
+2026-10-14T00:10:20+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/14 - 00:10:20 | 200 |         1m45s |       127.0.0.1 | POST     "/api/chat"
+2026-10-14T00:12:27+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/14 - 00:12:27 | 200 |          2m3s |       127.0.0.1 | POST     "/api/chat"
+2026-10-14T00:14:14+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/14 - 00:14:14 | 200 |         1m44s |       127.0.0.1 | POST     "/api/chat"
+2026-10-14T00:15:11+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:11.484+02:00 level=ERROR source=server.go:1654 msg="post predict" error="Post \"http://127.0.0.1:46323/completion\": EOF"
+2026-10-14T00:15:11+02:00 DESKTOP-ED36644 ollama[63087]: [GIN] 2026/10/14 - 00:15:11 | 500 | 54.778149887s |       127.0.0.1 | POST     "/api/chat"
+2026-10-14T00:15:12+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:12.863+02:00 level=WARN source=server.go:1305 msg="llama runner process no longer running" sys=9 string="signal: killed"
+2026-10-14T00:15:12+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:12.865+02:00 level=WARN source=server.go:1305 msg="llama runner process no longer running" sys=9 string="signal: killed"
+2026-10-14T00:15:15+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:15.874+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 36001"
+2026-10-14T00:15:16+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:16.669+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 37355"
+2026-10-14T00:15:16+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:16.919+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 45953"
+2026-10-14T00:15:17+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:17.169+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 40733"
+2026-10-14T00:15:17+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:17.418+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 37899"
+2026-10-14T00:15:17+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:17.669+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 36653"
+2026-10-14T00:15:17+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:17.919+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 36845"
+2026-10-14T00:15:18+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:18.169+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 43643"
+2026-10-14T00:15:18+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:18.419+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 34039"
+2026-10-14T00:15:18+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:18.668+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 46151"
+2026-10-14T00:15:18+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:18.919+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 41089"
+2026-10-14T00:15:19+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:19.169+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 44635"
+2026-10-14T00:15:19+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:19.420+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 42499"
+2026-10-14T00:15:19+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:19.669+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 40521"
+2026-10-14T00:15:19+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:19.919+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 35769"
+2026-10-14T00:15:20+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:20.168+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 35933"
+2026-10-14T00:15:20+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:20.418+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 37311"
+2026-10-14T00:15:20+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:20.669+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 42085"
+2026-10-14T00:15:20+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:20.918+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 40585"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.168+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 37127"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.418+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 43321"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.418+02:00 level=WARN source=runner.go:355 msg="unable to refresh free memory, using old values"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.418+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 45089"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.692+02:00 level=INFO source=server.go:259 msg="enabling flash attention"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.692+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --model /usr/share/ollama/.ollama/models/blobs/sha256-e8ad13eff07a78d89926e9e8b882317d082ef5bf9768ad7b50fcdbbcd63748de --port 35225"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.692+02:00 level=INFO source=sched.go:484 msg="system memory" total="7.7 GiB" free="6.6 GiB" free_swap="1.9 GiB"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.692+02:00 level=INFO source=sched.go:491 msg="gpu memory" id=GPU-3962678f-d773-cc62-159e-16e49f3a5f16 library=CUDA available="5.9 GiB" free="6.3 GiB" minimum="457.0 MiB" overhead="0 B"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.692+02:00 level=INFO source=server.go:792 msg="loading model" "model layers"=49 requested=-1
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.704+02:00 level=INFO source=runner.go:1450 msg="starting ollama engine"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.707+02:00 level=INFO source=runner.go:1485 msg="Server listening on 127.0.0.1:35225"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.717+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:fit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:49[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:49(0..48)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.771+02:00 level=INFO source=ggml.go:144 msg="" architecture=gemma3 file_type=Q4_K_M name="" description="" num_tensors=1065 num_key_values=37
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: load_backend: loaded CPU backend from /usr/local/lib/ollama/libggml-cpu-alderlake.so
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: ggml_cuda_init: found 1 CUDA devices:
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]:   Device 0: NVIDIA GeForce RTX 4060, compute capability 8.9, VMM: yes, ID: GPU-3962678f-d773-cc62-159e-16e49f3a5f16
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: load_backend: loaded CUDA backend from /usr/local/lib/ollama/cuda_v13/libggml-cuda.so
+2026-10-14T00:15:21+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:21.865+02:00 level=INFO source=ggml.go:104 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX_VNNI=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.BMI2=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 CUDA.0.ARCHS=750,800,860,870,890,900,1000,1030,1100,1200,1210 CUDA.0.USE_GRAPHS=1 CUDA.0.PEER_MAX_BATCH_SIZE=128 compiler=cgo(gcc)
+2026-10-14T00:15:22+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:22.631+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:fit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:40[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:40(8..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-14T00:15:22+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:22.880+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:alloc LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:40[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:40(8..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=runner.go:1297 msg=load request="{Operation:commit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Enabled KvSize:4096 KvCacheType: NumThreads:6 GPULayers:40[ID:GPU-3962678f-d773-cc62-159e-16e49f3a5f16 Layers:40(8..47)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=device.go:240 msg="model weights" device=CUDA0 size="5.0 GiB"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=ggml.go:490 msg="offloading 40 repeating layers to GPU"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=ggml.go:494 msg="offloading output layer to CPU"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=ggml.go:502 msg="offloaded 40/49 layers to GPU"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=device.go:245 msg="model weights" device=CPU size="3.4 GiB"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=device.go:251 msg="kv cache" device=CUDA0 size="620.0 MiB"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=device.go:256 msg="kv cache" device=CPU size="116.0 MiB"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=device.go:262 msg="compute graph" device=CUDA0 size="222.1 MiB"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=device.go:267 msg="compute graph" device=CPU size="18.0 MiB"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=device.go:272 msg="total memory" size="9.3 GiB"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=sched.go:561 msg="loaded runners" count=1
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.352+02:00 level=INFO source=server.go:1385 msg="waiting for llama runner to start responding"
+2026-10-14T00:15:23+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:23.353+02:00 level=INFO source=server.go:1428 msg="waiting for server to become available" status="llm server loading model"
+2026-10-14T00:15:38+02:00 DESKTOP-ED36644 ollama[63087]: time=2026-10-14T00:15:38.936+02:00 level=INFO source=server.go:1432 msg="llama runner started in 17.24 seconds"
+2026-10-14T00:15:57+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: A process of this unit has been killed by the OOM killer.
+2026-10-14T00:15:57+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Main process exited, code=killed, status=9/KILL
+2026-10-14T00:15:57+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Failed to kill control group /system.slice/ollama.service, ignoring: Invalid argument
+2026-10-14T00:15:57+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Failed with result 'oom-kill'.
+2026-10-14T00:15:57+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Consumed 2h 30min 5.429s CPU time, 7.2G memory peak, 1.9G memory swap peak.
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Scheduled restart job, restart counter is at 2.
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 systemd[1]: Started ollama.service - Ollama Service.
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:01.268+02:00 level=INFO source=routes.go:1802 msg="server config" env="map[CUDA_VISIBLE_DEVICES: GGML_VK_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:0 OLLAMA_DEBUG:INFO OLLAMA_DEBUG_LOG_REQUESTS:false OLLAMA_EDITOR: OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://127.0.0.1:11434 OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/usr/share/ollama/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NO_CLOUD:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_REMOTES:[ollama.com] OLLAMA_SCHED_SPREAD:false OLLAMA_VULKAN:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]"
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:01.270+02:00 level=INFO source=routes.go:1804 msg="Ollama cloud disabled: false"
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:01.276+02:00 level=INFO source=images.go:517 msg="total blobs: 22"
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:01.276+02:00 level=INFO source=images.go:524 msg="total unused blobs removed: 0"
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:01.276+02:00 level=INFO source=routes.go:1864 msg="Listening on 127.0.0.1:11434 (version 0.23.2)"
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:01.279+02:00 level=INFO source=runner.go:67 msg="discovering available GPUs..."
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:01.285+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 38511"
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:01.545+02:00 level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=4h33m18.679573254s consecutive_failures=0
+2026-10-14T00:16:01+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:01.853+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 45043"
+2026-10-14T00:16:02+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:02.307+02:00 level=INFO source=runner.go:106 msg="experimental Vulkan support disabled.  To enable, set OLLAMA_VULKAN=1"
+2026-10-14T00:16:02+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:02.307+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 36329"
+2026-10-14T00:16:02+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:02.307+02:00 level=INFO source=server.go:433 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 42049"
+2026-10-14T00:16:02+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:02.509+02:00 level=INFO source=types.go:42 msg="inference compute" id=GPU-3962678f-d773-cc62-159e-16e49f3a5f16 filter_id="" library=CUDA compute=8.9 name=CUDA0 description="NVIDIA GeForce RTX 4060" libdirs=ollama,cuda_v13 driver=13.3 pci_id=0000:01:00.0 type=discrete total="8.0 GiB" available="6.3 GiB"
+2026-10-14T00:16:02+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T00:16:02.509+02:00 level=INFO source=routes.go:1914 msg="vram-based default context" total_vram="8.0 GiB" default_num_ctx=4096
+2026-10-14T11:59:27+02:00 DESKTOP-ED36644 ollama[260178]: time=2026-10-14T11:59:27.871+02:00 level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=4h32m28.306019406s consecutive_failures=0
+2026-10-14T19:27:41+02:00 DESKTOP-ED36644 systemd[1]: Stopping ollama.service - Ollama Service...
+2026-10-14T19:27:41+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Deactivated successfully.
+2026-10-14T19:27:41+02:00 DESKTOP-ED36644 systemd[1]: Stopped ollama.service - Ollama Service.
+2026-10-14T19:27:41+02:00 DESKTOP-ED36644 systemd[1]: ollama.service: Consumed 4.109s CPU time, 554.4M memory peak, 0B memory swap peak.

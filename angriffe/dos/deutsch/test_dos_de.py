@@ -33,9 +33,9 @@ test2_längen = [
 wiederholungen = 10
 
 modelle = [
-    "llama3:8b",
-    "mistral:latest",
-    "gemma3:4b",
+    #"llama3:8b",
+    #"mistral:latest",
+    #"gemma3:4b",
     "gemma3:12b",
 ]
 
